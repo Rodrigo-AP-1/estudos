@@ -1,0 +1,19 @@
+#container{
+    border: 2px solid;
+}
+
+#container p {
+    background-color: rgb(140, 184, 184);
+}
+
+#container > p {
+    background-color: rgb(184, 159, 207);
+}
+
+#container ~ p {
+    background-color: chocolate;
+}
+
+#container + p {
+    background-color: rgb(157, 201, 148);
+}

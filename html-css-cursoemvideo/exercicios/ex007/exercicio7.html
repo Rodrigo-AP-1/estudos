@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprendendo semantica">
+    <meta name="author" content="Rodrigo">
+    <title>Testando tipos de texto e semantica</title>
+    <style>
+        body {
+            background-color: rgb(211, 208, 224);
+        }
+
+        mark {
+            background-color: rgb(255, 255, 0);
+            color: rgb(0, 0, 0);
+            padding: 2px 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exercicio 7: Negrito e Italico</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Texto com Negrito</h2>
+                <p>Lorem, <strong>ipsum dolor sit amet consectetur adipisicing elit</strong>. Accusantium enim vel nisi ipsa, quam facere minus rem autem, delectus incidunt iure id, voluptas magnam architecto error inventore maiores explicabo odit (SEMANTICA).</p>
+                <p>Lorem, <b>ipsum dolor sit amet consectetur adipisicing elit</b>. Accusantium enim vel nisi ipsa, quam facere minus rem autem, delectus incidunt iure id, voluptas magnam architecto error inventore maiores explicabo odit (NAO SEMANTICA).</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Texto com Italico</h2>
+                <p>Lorem, <em>ipsum dolor sit amet consectetur adipisicing elit</em>. Accusantium enim vel nisi ipsa, quam facere minus rem autem, delectus incidunt iure id, voluptas magnam architecto error inventore maiores explicabo odit (SEMANTICA).</p>
+                <p>Lorem, <i>ipsum dolor sit amet consectetur adipisicing elit</i>. Accusantium enim vel nisi ipsa, quam facere minus rem autem, delectus incidunt iure id, voluptas magnam architecto error inventore maiores explicabo odit (NAO SEMANTICA).</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Texto com Marcador e Texto grande ou pequeno</h2>
+                <p>Lorem, <mark>ipsum</mark> dolor sit amet consectetur adipisicing elit. Accusantium enim vel nisi ipsa, quam facere minus rem autem, delectus incidunt iure id, voluptas magnam architecto error inventore maiores <big>explicabo</big> <small>odit</small>.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Texto Deletado</h2>
+                <p>Lorem, <mark>ipsum</mark> dolor sit amet <del>consectetur</del> adipisicing elit. Accusantium enim vel nisi ipsa, quam facere minus rem autem, delectus incidunt iure id, voluptas magnam architecto error inventore maiores <big>explicabo</big> <small>odit</small>.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Texto inserido</h2>
+                <p>Lorem, <mark>ipsum</mark> dolor sit amet consectetur adipisicing elit. <ins>Accusantium enim vel</ins> nisi ipsa, quam facere minus rem autem, delectus incidunt iure id, voluptas magnam architecto error inventore maiores <big>explicabo</big> <small>odit</small>.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Texto Sobrescrito</h2>
+                <p>x<sup>20</sup>+3</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Texto Subscrito</h2>
+                <p>H<sub>2</sub>O</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

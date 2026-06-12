@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+}
+
+.box {
+    border: 5px solid orangered;
+    margin: auto;
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+}

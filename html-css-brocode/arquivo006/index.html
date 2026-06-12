@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Botoes</title>
+</head>
+<body>
+    
+    <button style="font-size: large; background-color: grey; color: azure; border-radius: 5px;" onclick="doSomething()">click me</button>
+
+    <p id="greeting">Hello</p>
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "Goodbye"
+        }
+    </script>
+</body>
+</html>

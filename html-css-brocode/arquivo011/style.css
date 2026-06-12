@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(255, 251, 202);
+}
+
+
+h1 {
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, Arial, sans-serif;
+    border: 5px solid rgb(117, 49, 49);
+    border-radius: 5px;
+}
+
+p {
+    font-family: Roboto, 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
